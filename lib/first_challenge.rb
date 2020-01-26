@@ -3,10 +3,5 @@ def first_challenge
      "montague" => ""
      "capulet" => ""
    }
-
-
-
-   epic_tragedy["montague"] = ""
-   epic_tragedy["capulet"] = ""
    return epic_tragedy
 end
