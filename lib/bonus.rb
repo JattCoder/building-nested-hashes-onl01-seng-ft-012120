@@ -20,9 +20,11 @@ def bonus
    }
   }
 
-  #code your solution here:
+  epic_tragedy.each do |key,value|
+    hero_and_heroine = value.keys[2]
+    value_of_status = epic_tragedy[key][hero_and_heroine][:status] = "dead"
+  end
 
-  
 
   #Don't touch the following line! The `bonus` method must return our newly modified epic tragedy hash
   epic_tragedy
